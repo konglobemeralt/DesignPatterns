@@ -13,9 +13,33 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Toys">
+      <UniqueIdentifier>{d450da59-02a9-4baa-895a-119248658373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ToyFactory">
+      <UniqueIdentifier>{50b2c3e1-def6-4f63-a87e-302f05b27038}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Bike.cpp">
+      <Filter>Source Files\Toys</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>Source Files\Toys</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>Source Files\Toys</Filter>
+    </ClCompile>
     <ClCompile Include="Toy.cpp">
+      <Filter>Source Files\Toys</Filter>
+    </ClCompile>
+    <ClCompile Include="ToyFactory.cpp">
+      <Filter>Source Files\ToyFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

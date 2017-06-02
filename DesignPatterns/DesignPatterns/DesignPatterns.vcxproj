@@ -111,7 +111,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Bike.cpp" />
+    <ClCompile Include="Car.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="object.cpp" />
+    <ClCompile Include="Plane.cpp" />
     <ClCompile Include="Toy.cpp" />
+    <ClCompile Include="ToyFactory.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
