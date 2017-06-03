@@ -2,11 +2,11 @@
 using namespace std;
 
 class Toy {
-protected:
+public:
 	//Some shitty values just to have somehting to work with
 	string name;
 	float price;
-public:
+
 	//Some equaly shitty methods to have somehting to work with.
 	//Virtual functions in contrast to abstract can have a defention in the base class and they do not necessarily need to be overriden in the inherited class.
 	virtual void prepareParts() = 0;
