@@ -21,5 +21,8 @@
     <ClCompile Include="Car.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="CarFactory.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
