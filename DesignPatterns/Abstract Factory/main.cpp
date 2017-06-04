@@ -17,6 +17,7 @@ int main() {
 		Car *car = factory->buildWholeCar();
 		car->printDetails();
 
+		cout << "Press any key to exit... " << endl;
 		char c = getchar();//Just here to "pause console window instead of shutting it down when finished""
 
 		return 0;
