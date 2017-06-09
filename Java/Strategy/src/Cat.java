@@ -7,6 +7,8 @@ public class Cat extends Animal {
     public Cat(){
         super();
         setSound("Mjao");
+
+        flyingType = new CantFly();
     }
 
 }

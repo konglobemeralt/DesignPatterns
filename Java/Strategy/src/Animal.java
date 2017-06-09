@@ -8,6 +8,8 @@ public class Animal {
     private int weight;
     private String sound;
 
+    public Flies flyingType;
+
     public String getName() {
         return name;
     }
@@ -45,4 +47,16 @@ public class Animal {
     public void setSound(String sound) {
         this.sound = sound;
     }
+
+
+    public String tryToFly(){
+        return flyingType.fly();
+    }
+
+    public void setFlyingAbility(Flies newFlyType){
+        this.flyingType = newFlyType;
+    }
+
+
+
 }

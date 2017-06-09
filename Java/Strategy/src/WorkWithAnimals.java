@@ -5,15 +5,14 @@ public class WorkWithAnimals {
 
     public static void main(String[] args){
 
-        Dog fido = new Dog();
+        Animal sparky = new Dog(); // RIP SPARKY
 
-        fido.setName("Fido");
-        System.out.println(fido.getName());
+        Animal tweety = new Bird();
 
-        fido.digHole();
+        System.out.println("Dog: " + sparky.tryToFly());
+        System.out.println("Bird: " + tweety.tryToFly());
 
-        fido.setWeight(-1);
-        
+
     }
 
 
