@@ -9,8 +9,11 @@ public class WorkWithAnimals {
 
         Animal tweety = new Bird();
 
+        FighterJet mrfightoPlane = new FighterJet();
+
         System.out.println("Dog: " + sparky.tryToFly());
         System.out.println("Bird: " + tweety.tryToFly());
+        System.out.println("Jet Fighter: " + mrfightoPlane.tryToFly());
 
 
     }

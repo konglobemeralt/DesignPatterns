@@ -19,3 +19,11 @@ class CantFly implements Flies{
         return "This animal can't fly";
     }
 }
+
+
+class FliesReallyFreakingFast implements Flies{
+
+    public String fly() {
+        return "This is a really fast jetplane";
+    }
+}
