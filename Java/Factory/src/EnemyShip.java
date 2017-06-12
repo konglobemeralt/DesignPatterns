@@ -32,7 +32,7 @@ public abstract class EnemyShip {
     }
 
     public void enemyShipShoots(){
-        System.out.println(getName() + " attacks and does " + getDamage() );
+        System.out.println(getName() + " attacks and does " + getDamage() + " damage!" );
 
     }
 }

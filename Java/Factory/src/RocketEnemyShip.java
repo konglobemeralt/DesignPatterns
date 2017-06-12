@@ -4,7 +4,7 @@
 public class RocketEnemyShip extends EnemyShip{
 
     public RocketEnemyShip(){
-            setName("UFO Enemy Ship");
+            setName("Rocket Enemy Ship");
             setDamage(20.0);
         }
 }
