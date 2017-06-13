@@ -14,8 +14,8 @@ public class EnemyShipTesting {
         EnemyShip theGrunt = MakeUFOs.orderTheShip("UFO");
         System.out.println(theGrunt + "\n");
 
-        EnemyShip theShittyRocket = MakeUFOs.orderTheShip("Shitty Rocket");
-        System.out.println(theGrunt + "\n");
+        EnemyShip theShittyRocket = MakeUFOs.orderTheShip("SHITTY ROCKET");
+        System.out.println(theShittyRocket + "\n");
 
         EnemyShip theBoss = MakeUFOs.orderTheShip("UFO BOSS");
         System.out.println(theBoss + "\n");

@@ -1,7 +1,7 @@
 /**
  * Created by Jesper on 2017-06-13.
  */
-public class BossShittyRocketShip extends EnemyShip {
+public class UFOShittyRocketEnemy extends EnemyShip {
     // We define the type of ship we want to create
     // by stating we want to use the factory that
     // makes enemy ships
@@ -12,9 +12,9 @@ public class BossShittyRocketShip extends EnemyShip {
     // this method. They state that the enemy ship
     // must have a weapon and engine assigned. That
     // object also states the specific parts needed
-    // to make a Boss UFO versus a Regular UFO
+    // to make a Boss UFOShittyRocketEnemy versus a Regular UFOShittyRocketEnemy
 
-    public BossShittyRocketShip(EnemyShipFactory shipFactory){
+    public UFOShittyRocketEnemy(EnemyShipFactory shipFactory){
 
         this.shipFactory = shipFactory;
 

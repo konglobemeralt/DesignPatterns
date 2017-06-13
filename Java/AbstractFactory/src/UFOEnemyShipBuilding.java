@@ -10,8 +10,8 @@ public class UFOEnemyShipBuilding extends EnemyShipBuilding {
     protected EnemyShip makeEnemyShip(String typeOfShip) {
         EnemyShip theEnemyShip = null;
 
-        // If UFO was sent grab use the factory that knows
-        // what types of weapons and engines a regular UFO
+        // If UFOShittyRocketEnemy was sent grab use the factory that knows
+        // what types of weapons and engines a regular UFOShittyRocketEnemy
         // needs. The EnemyShip object is returned & given a name
 
         if(typeOfShip.equals("UFO")){
@@ -21,12 +21,12 @@ public class UFOEnemyShipBuilding extends EnemyShipBuilding {
 
         } else
 
-            // If UFO BOSS was sent grab use the factory that knows
-            // what types of weapons and engines a Boss UFO
+            // If UFOShittyRocketEnemy BOSS was sent grab use the factory that knows
+            // what types of weapons and engines a Boss UFOShittyRocketEnemy
             // needs. The EnemyShip object is returned & given a name
 
             if(typeOfShip.equals("UFO BOSS")){
-                EnemyShipFactory shipPartsFactory = new UFOBossEnemyShipFactory();
+                EnemyShipFactory shipPartsFactory = new UFOBossEnemyFactory();
                 theEnemyShip = new UFOBossEnemyShip(shipPartsFactory);
                 theEnemyShip.setName("UFO Boss Ship");
 
@@ -34,12 +34,12 @@ public class UFOEnemyShipBuilding extends EnemyShipBuilding {
             else
 
                 // If Shitty Rocket was sent grab use the factory that knows
-                // what types of weapons and engines a Boss UFO
+                // what types of weapons and engines a Boss UFOShittyRocketEnemy
                 // needs. The EnemyShip object is returned & given a name
 
                 if(typeOfShip.equals("SHITTY ROCKET")){
-                    EnemyShipFactory shipPartsFactory = new ShittyRocketShipFactory();
-                    theEnemyShip = new ShittyRocketShip(shipPartsFactory);
+                    EnemyShipFactory shipPartsFactory = new UFOBossEnemyFactory();
+                    theEnemyShip = new UFOBossEnemyShip(shipPartsFactory);
                     theEnemyShip.setName("Shitty Rocket Ship");
 
                 }

@@ -13,7 +13,7 @@ public class UFOEnemyShip extends EnemyShip{
     // this method. They state that the enemy ship
     // must have a weapon and engine assigned. That
     // object also states the specific parts needed
-    // to make a regular UFO versus a Boss UFO
+    // to make a regular UFOShittyRocketEnemy versus a Boss UFOShittyRocketEnemy
 
     public UFOEnemyShip(EnemyShipFactory shipFactory){
 
