@@ -27,20 +27,31 @@ public class Singleton {
 
     private Singleton(){}
 
-    public static Singleton getInstance(){
-        if(firstInstance == null){
+    public static Singleton getInstance() {
+        if(firstInstance == null) {
 
             if(firstThread){
                 firstThread = false;
-                Thread.currentThread();
+
                 try {
+                    Thread.currentThread();
                     Thread.sleep(1000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
             }
-            firstInstance = new Singleton();
+
+            synchronized(Singleton.class){
+
+                if(firstInstance == null) {
+                    firstInstance = new Singleton();
+                    Collections.shuffle(firstInstance.letterList);
+                }
+
+            }
+
         }
+
         return firstInstance;
     }
 
