@@ -18,6 +18,7 @@ public class TomatoSauce extends ToppingDecorator {
     public double getCost(){
         System.out.println("Cost of Sauce: " + .35);
         return tempPizza.getCost() + .35;
+
     }
 
 }

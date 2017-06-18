@@ -1,7 +1,7 @@
 /**
  * Created by Jesper on 2017-06-18.
  */
-public class ToppingDecorator {
+public class ToppingDecorator implements Pizza{
 
     protected Pizza tempPizza;
 
