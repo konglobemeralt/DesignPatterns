@@ -2,7 +2,7 @@
  * Created by konglobemeralt on 2017-06-23.
  */
 public class AccountNumberCheck {
-    private int accountNumber = 123456;
+    private int accountNumber = 1234567;
 
     public int getAccountNumber() {return accountNumber;}
 
